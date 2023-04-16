@@ -1,0 +1,49 @@
+input[type="button"] {
+	width: 50px;
+	height: 50px;
+	font-size: 24px;
+	margin: 2px;
+	cursor: pointer;
+	background-color: #eee;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #ccc;
+}
+
+input[type="button"]:active {
+	box-shadow: none;
+	transform: translateY(2px);
+}
+
+input[type="text"] {
+	width: 210px;
+	height: 50px;
+	font-size: 24px;
+	text-align: right;
+	margin: 2px;
+	padding: 0px 5px;
+	background-color: #fff;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #ccc;
+}
+
+body {
+	background-color: #333333;
+	color: #ffffff;
+}
+
+button {
+	background-color: #444444;
+	color: #ffffff;
+}
+
+button.operator {
+	background-color: #ff8800;
+	color: #ffffff;
+}
+
+button.clear {
+	background-color: #880000;
+	color: #ffffff;
+}
